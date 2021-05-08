@@ -1,0 +1,1066 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="dist/style.css">
+    <link 
+        rel="stylesheet" 
+        href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" 
+        integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" 
+        crossorigin="anonymous"
+        />  
+    <title>#Эрүүл мэндийн сайд С.Энхболд вакцинжуулалтыг зохион байгуулж буй эмнэлгийн удирдлагатай цахим хурал хийв</title>
+</head>
+<body class=" flex flex-col bg-gray-100 leading-normal tracking-normal">
+
+    <header>
+        <!-- Sliding News -->
+        <div class="flex flex-row text-scroll font-main bg-gray-200 h-6.5">
+            <marquee behavior="scroll" direction="left" class="p-1 w-full">
+                <span class="text-third px-2">ЭМЯ</span><span>Эрүүл мэндийн сайд С.Энхболд Нэг өрх-нэг хаалга шинжилгээний явуулын багийн ажлыг шалгав.</span>
+                <span class="text-third px-2">ЭМЯ</span><span>С.Энхболд: Монгол эрдэмтдийн бүтээлийг Эрүүл мэндийн яам дэмжиж ажиллана.</span>
+                <span class="text-third px-2">ЭМЯ</span><span>Ховд аймгийн БОЭТ-ийн Амаржих газарт 3 ихэр хүүхэд мэндэллээ.</span>
+                <span class="text-third px-2">ЭМЯ</span>
+            </marquee>
+            <div class="bg-primary text-white absolute px-3.5 top-0 right-0 py-1.5">Шуурхай мэдээ</div>
+        </div>
+
+        <!-- Logo Section -->
+        <section class="bg-primary py-2 px-3.75 sm:px-16.25 md:px-6 lg:px-10.5 xl:px-21.25 laptop:px-31.25 2xl:px-53.25">
+            <div class="container flex justify-center md:justify-between">
+                <div class="cursor-pointer">
+                    <a href="#">
+                        <img src="https://www.moh.gov.mn/images/logo_2021_new.png" class="h-15 md:h-17.5"></img>
+                    </a>
+                </div>
+
+                <div class="hidden lg:block text-white">
+                    <div class="flex flex-row space-x-5 revisit">
+                        <div class="flex flex-row px-3.75 py-4.5">
+                            <i class="fas fa-question-circle text-3.5xl text-third"></i>
+                            <div class="flex flex-col pl-2">
+                                <p class="font-bold text-xs uppercase">Түгээмэл Асуулт</p>
+                                <a href="#" class="hover:text-blue-600 text-xs">Тусламж</a>
+                            </div>
+                        </div>
+                        <div class="flex flex-row px-3.75 py-4.5">
+                            <i class="fas fa-phone-volume text-3.5xl text-third"></i>
+                            <div class="flex flex-col pl-2">
+                                <p class="font-bold text-xs uppercase">Холбоо барих</p>
+                                <a href="#" class="hover:text-blue-600 text-xs">Залгах</a>
+                            </div>
+                        </div>
+                        <div class="flex flex-row px-3.75 py-4.5">
+                            <i class="fas fa-envelope-open-text text-3.5xl text-third"></i>
+                            <div class="flex flex-col pl-2">
+                                <p class="font-bold text-xs uppercase">Санал, хүсэлт</p>
+                                <a href="#" class="hover:text-blue-600 text-xs">Илгээх</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- ✓ Menu -->
+        <nav>
+            <!-- Menu Desktop -->
+            <div class="hidden lg:flex bg-second text-white font-subs text-xs uppercase px-10.5 xl:px-21.25 laptop:px-31.25 2xl:px-53.25">
+                <ul class="flex flex-1">
+                    <li>
+                        <div class="dropdown inline-block relative">
+                            <a class="pt-3.5 pb-3 px-2 inline-flex items-center border-b-2 border-second hover:border-third transition-colors duration-500 ease-out">
+                                <span>Нүүр</span>
+                            </a>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="dropdown inline-block relative">
+                            <a class="pt-3.5 pb-3 px-2 inline-flex items-center border-b-2 border-second hover:border-third transition-colors duration-500 ease-out">
+                                <span>Бидний Тухай</span>
+                                <i class="fas fa-angle-down pl-1"></i>
+                            </a>
+                            <ul class="dropdown-menu absolute hidden bg-white text-gray-700 uppercase font-subs text-0.1xs z-50">
+                                <li><a class="hover:bg-gray-100 hover:text-blue-500 py-1.5 px-2 w-74 block" href="#">Яам бүтэц</a></li>
+                                <li><a class="hover:bg-gray-100 hover:text-blue-500 py-1.5 px-2 w-74 block" href="#">Яамны эрхэм зорилго</a></li>
+                                <li><a class="hover:bg-gray-100 hover:text-blue-500 py-1.5 px-2 w-74 block" href="#">Яамны үйл ажиллагааны стратегийн зорилт, зорилго</a></li>
+                                <li><a class="hover:bg-gray-100 hover:text-blue-500 py-1.5 px-2 w-74 block" href="#">Түүхэн замнал</a></li>
+                                <li><a class="hover:bg-gray-100 hover:text-blue-500 py-1.5 px-2 w-74 block" href="#">Яамны үйл ажиллагааны тэргүүлэх чиглэл</a></li>
+                                <li><a class="hover:bg-gray-100 hover:text-blue-500 py-1.5 px-2 w-74 block" href="#">Төрийн албан хаагчийн эрхэмлэх 9 зүйл</a></li>
+                            </ul>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="dropdown inline-block relative">
+                            <a class="pt-3.5 pb-3 px-2 inline-flex items-center border-b-2 border-second hover:border-third transition-colors duration-500 ease-out">
+                                <span>Төрийн Үйлчилгээ</span>
+                                <i class="fas fa-angle-down pl-1"></i>
+                            </a>
+                            <ul class="dropdown-menu absolute hidden bg-white text-gray-700 uppercase font-subs text-0.1xs z-50">
+                                <li><a class="hover:bg-gray-100 hover:text-blue-500 py-1.5 px-2 w-74 block" href="ded tses.html">Гадаад оронд зайлшгүй шаардлагаар эмчлүүлэх</a></li>
+                                <li><a class="hover:bg-gray-100 hover:text-blue-500 py-1.5 px-2 w-74 block" href="#">Магадлан итгэмжлэх</a></li>
+                                <li><a class="hover:bg-gray-100 hover:text-blue-500 py-1.5 px-2 w-74 block" href="#">Тусгай зөвшөөрөл</a></li>
+                            </ul>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="dropdown inline-block relative">
+                            <a class="pt-3.5 pb-3 px-2 inline-flex items-center border-b-2 border-second hover:border-third transition-colors duration-500 ease-out">
+                                <span>Эрх Зүйн Акт</span>
+                                <i class="fas fa-angle-down pl-1"></i>
+                            </a>
+                            <ul class="dropdown-menu absolute hidden bg-white text-gray-700 uppercase font-subs text-0.1xs z-50">
+                                <li><a class="hover:bg-gray-100 hover:text-blue-500 py-1.5 px-2 w-74 block" href="#">Монгол улсын хууль</a></li>
+                                <li><a class="hover:bg-gray-100 hover:text-blue-500 py-1.5 px-2 w-74 block" href="#">Уих-н тогтоол</a></li>
+                                <li><a class="hover:bg-gray-100 hover:text-blue-500 py-1.5 px-2 w-74 block" href="#">Засгийн газрын тогтоол</a></li>
+                                <li><a class="hover:bg-gray-100 hover:text-blue-500 py-1.5 px-2 w-74 block" href="#">Сайдын тушаал</a></li>
+                                <li><a class="hover:bg-gray-100 hover:text-blue-500 py-1.5 px-2 w-74 block" href="#">Журам</a></li>
+                                <li><a class="hover:bg-gray-100 hover:text-blue-500 py-1.5 px-2 w-74 block" href="#">Төрийн бодлого</a></li>
+                                <li><a class="hover:bg-gray-100 hover:text-blue-500 py-1.5 px-2 w-74 block" href="#">Үндэсний хөтөлбөр</a></li>
+                            </ul>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="dropdown inline-block relative">
+                            <a class="pt-3.5 pb-3 px-2 inline-flex items-center border-b-2 border-second hover:border-third transition-colors duration-500 ease-out">
+                                <span>Шинэ Короновирус</span>
+                                <i class="fas fa-angle-down pl-1"></i>
+                            </a>
+                                <ul class="dropdown-menu absolute hidden bg-white text-gray-700 uppercase font-subs text-0.1xs z-50">
+                                    <li><a class="hover:bg-gray-100 hover:text-blue-500 py-1.5 px-2 w-74 block" href="#">Цаг үеийн мэдээ</a></li>
+                                    <li><a class="hover:bg-gray-100 hover:text-blue-500 py-1.5 px-2 w-74 block" href="#">(COVID-19) халдварын эмнэлзүйн заавар удирдамжууд</a></li>
+                                    <li><a class="hover:bg-gray-100 hover:text-blue-500 py-1.5 px-2 w-74 block" href="#">Коронавируст халдвар (COVID-19)-ын бэлэн байдлыг хангахад чиглэсэн сургалт, илтгэл</a></li>
+                                    <li><a class="hover:bg-gray-100 hover:text-blue-500 py-1.5 px-2 w-74 block" href="#">Коронавируст халдвар (COVID-19)-ын үед эмнэлгийн тусламжийн бэлэн байдлыг хангахад чиглэсэн заавар зөвлөмж</a></li>
+                                </ul>
+                            
+                        </div>
+                    </li>
+                    <li>
+                        <div class="dropdown inline-block relative">
+                            <a class="pt-3.5 pb-3 px-2 inline-flex items-center border-b-2 border-second hover:border-third transition-colors duration-500 ease-out">
+                                <span>Ил Тод Байдал</span>
+                                <i class="fas fa-angle-down pl-1"></i>
+                            </a>
+                            <ul class="dropdown-menu absolute hidden bg-white text-gray-700 uppercase font-subs text-0.1xs z-50">
+                                <li><a class="hover:bg-gray-100 hover:text-blue-500 py-1.5 px-2 w-74 block" href="#">Үйл ажиллагааны ил тод байдал</a></li>
+                                <li><a class="hover:bg-gray-100 hover:text-blue-500 py-1.5 px-2 w-74 block" href="#">Хүний нөөцийн ил тод байдал</a></li>
+                                <li><a class="hover:bg-gray-100 hover:text-blue-500 py-1.5 px-2 w-74 block" href="#">Төрийн албаны салбар зөвлөл</a></li>
+                                <li><a class="hover:bg-gray-100 hover:text-blue-500 py-1.5 px-2 w-74 block" href="#">Төсөв санхүүгийн ил тод байдал</a></li>
+                                <li><a class="hover:bg-gray-100 hover:text-blue-500 py-1.5 px-2 w-74 block" href="#">Тендерийн баримт бичгийн ил тод байдал</a></li>
+                                <li><a class="hover:bg-gray-100 hover:text-blue-500 py-1.5 px-2 w-74 block" href="#">Иргэдийн санал гомдлын тойм</a></li>
+                                <li><a class="hover:bg-gray-100 hover:text-blue-500 py-1.5 px-2 w-74 block" href="#">Хяналт шинжилгээ үнэлгээ, дотоод аудит</a></li>
+                                <li><a class="hover:bg-gray-100 hover:text-blue-500 py-1.5 px-2 w-74 block" href="#">Авилгын эсрэг</a></li>
+                                <li><a class="hover:bg-gray-100 hover:text-blue-500 py-1.5 px-2 w-74 block" href="#">Ёс зүйн хороо</a></li>
+                            </ul>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="dropdown inline-block relative">
+                            <a class="pt-3.5 pb-3 px-2 inline-flex items-center border-b-2 border-second hover:border-third transition-colors duration-500 ease-out">
+                                <span>Шилэн Данс</span>
+                                <i class="fas fa-angle-down pl-1"></i>
+                            </a>
+                            <ul class="dropdown-menu absolute hidden bg-white text-gray-700 uppercase font-subs text-0.1xs z-50">
+                                <li><a class="hover:bg-gray-100 hover:text-blue-500 py-1.5 px-2 w-74 block" href="#">Төсвийн ерөнхийлөн захирагч</a></li>
+                                <li><a class="hover:bg-gray-100 hover:text-blue-500 py-1.5 px-2 w-74 block" href="#">Эрүүл мэндийн яам</a></li>
+                                <li><a class="hover:bg-gray-100 hover:text-blue-500 py-1.5 px-2 w-74 block" href="#">Тодруулга өгөх мэргэжилтэн</a></li>
+                                <li><a class="hover:bg-gray-100 hover:text-blue-500 py-1.5 px-2 w-74 block" href="#">Харьяа байгууллага</a></li>
+                                <li><a class="hover:bg-gray-100 hover:text-blue-500 py-1.5 px-2 w-74 block" href="#">Орон нутаг</a></li>
+                            </ul>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="dropdown inline-block relative">
+                            <a class="pt-3.5 pb-3 px-2 inline-flex items-center border-b-2 border-second hover:border-third transition-colors duration-500 ease-out">
+                                <span>Холбоо Барих</span>
+                            </a>
+                        </div>
+                    </li>
+
+                    <!-- Search Bar -->
+                    <li class="hidden xl:block text-white ml-5 my-auto">
+                        <input class="bg-primary px-3 py-1.5 text-0.1xs placeholder-third focus:outline-none" type="search" name="search" placeholder="Хайх" style="width: 111px; height: 27px;">
+                    </li>
+                    <li class="hidden xl:block px-3 my-auto">
+                        <button type="submit">
+                            <i class="fas fa-search text-xs"></i>
+                        </button>
+                    </li>
+                </ul>
+            </div>
+            
+            <!-- Menu Mobile -->
+            <div class="flex lg:hidden flex-wrap items-center justify-between bg-second w-full py-2.5 px-3.75 sm:px-16.25 md:px-6 z-10">
+                <div class="lg:hidden">
+                    <button id="nav-toggle">
+                        <i class="fas fa-bars text-xs text-white"></i>
+                    </button>
+                </div>
+
+                <div class="flex flex-row items-center flex-shrink-0 text-white">
+                    <div class="ml-5 my-auto">
+                        <input class="bg-primary px-3 py-1.5 text-0.1xs placeholder-third focus:outline-none" type="search" name="search" placeholder="Хайх" style="width: 111px; height: 27px;">
+                    </div>
+                    <div class="px-3 my-auto">
+                        <button type="submit">
+                            <i class="fas fa-search text-xs"></i>
+                        </button>
+                    </div>
+                </div>
+        
+                <!-- Menu Items -->
+                <div id="nav-content" class="hidden w-full pt-2.5">
+                    <ul class="uppercase flex-1 text-white text-xs font-main">
+                        <li>
+                            <div class="relative border-b border-white">
+                                <a class="py-4 px-1.25 inline-flex items-center">
+                                    <span class="hover:text-third">Нүүр</span>
+                                </a>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="dropdown relative border-b border-white">
+                                <a class="py-4 px-1.25 inline-flex items-center">
+                                    <span class="hover:text-third">Бидний Тухай</span>
+                                </a>
+                                <ul class="dropdown-menu hidden font-subs text-0.1xs">
+                                    <li><a class="border-b border-white hover:font-bold py-1.5 px-2 ml-3.75 w-74 block" href="#">Яам бүтэц</a></li>
+                                    <li><a class="border-b border-white hover:font-bold py-1.5 px-2 ml-3.75 w-74 block" href="#">Яамны эрхэм зорилго</a></li>
+                                    <li><a class="border-b border-white hover:font-bold py-1.5 px-2 ml-3.75 w-74 block" href="#">Яамны үйл ажиллагааны стратегийн зорилт, зорилго</a></li>
+                                    <li><a class="border-b border-white hover:font-bold py-1.5 px-2 ml-3.75 w-74 block" href="#">Түүхэн замнал</a></li>
+                                    <li><a class="border-b border-white hover:font-bold py-1.5 px-2 ml-3.75 w-74 block" href="#">Яамны үйл ажиллагааны тэргүүлэх чиглэл</a></li>
+                                    <li><a class="hover:font-bold py-1.5 px-2 ml-3.75 w-74 block" href="#">Төрийн албан хаагчийн эрхэмлэх 9 зүйл</a></li>
+                                </ul>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="dropdown relative border-b border-white">
+                                <a class="py-4 px-1.25 inline-flex items-center">
+                                    <span class="hover:text-third">Төрийн Үйлчилгээ</span>
+                                </a>
+                                <ul class="dropdown-menu hidden font-subs text-0.1xs">
+                                    <li><a class="border-b border-white hover:font-bold py-1.5 px-2 ml-3.75 w-74 block" href="ded tses.html">Гадаад оронд зайлшгүй шаардлагаар эмчлүүлэх</a></li>
+                                    <li><a class="border-b border-white hover:font-bold py-1.5 px-2 ml-3.75 w-74 block" href="#">Магадлан итгэмжлэх</a></li>
+                                    <li><a class="hover:font-bold py-1.5 px-2 ml-3.75 w-74 block" href="#">Тусгай зөвшөөрөл</a></li>
+                                </ul>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="dropdown relative border-b border-white">
+                                <a class="py-4 px-1.25 inline-flex items-center">
+                                    <span class="hover:text-third">Эрх Зүйн Акт</span>
+                                </a>
+                                <ul class="dropdown-menu hidden font-subs text-0.1xs">
+                                    <li><a class="border-b border-white hover:font-bold py-1.5 px-2 ml-3.75 w-74 block" href="#">Монгол улсын хууль</a></li>
+                                    <li><a class="border-b border-white hover:font-bold py-1.5 px-2 ml-3.75 w-74 block" href="#">Уих-н тогтоол</a></li>
+                                    <li><a class="border-b border-white hover:font-bold py-1.5 px-2 ml-3.75 w-74 block" href="#">Засгийн газрын тогтоол</a></li>
+                                    <li><a class="border-b border-white hover:font-bold py-1.5 px-2 ml-3.75 w-74 block" href="#">Сайдын тушаал</a></li>
+                                    <li><a class="border-b border-white hover:font-bold py-1.5 px-2 ml-3.75 w-74 block" href="#">Журам</a></li>
+                                    <li><a class="border-b border-white hover:font-bold py-1.5 px-2 ml-3.75 w-74 block" href="#">Төрийн бодлого</a></li>
+                                    <li><a class="hover:font-bold py-1.5 px-2 ml-3.75 w-74 block" href="#">Үндэсний хөтөлбөр</a></li>
+                                </ul>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="reladropdown tive border-b border-white">
+                                <a class="py-4 px-1.25 inline-flex items-center">
+                                    <span class="hover:text-third">Шинэ Короновирус</span>
+                                </a>
+                                    <ul class="dropdown-menu hidden font-subs text-0.1xs">
+                                        <li><a class="border-b border-white hover:font-bold py-1.5 px-2 ml-3.75 w-74 block" href="#">Цаг үеийн мэдээ</a></li>
+                                        <li><a class="border-b border-white hover:font-bold py-1.5 px-2 ml-3.75 w-74 block" href="#">(COVID-19) халдварын эмнэлзүйн заавар удирдамжууд</a></li>
+                                        <li><a class="border-b border-white hover:font-bold py-1.5 px-2 ml-3.75 w-74 block" href="#">Коронавируст халдвар (COVID-19)-ын бэлэн байдлыг хангахад чиглэсэн сургалт, илтгэл</a></li>
+                                        <li><a class="hover:font-bold py-1.5 px-2 ml-3.75 w-74 block" href="#">Коронавируст халдвар (COVID-19)-ын үед эмнэлгийн тусламжийн бэлэн байдлыг хангахад чиглэсэн заавар зөвлөмж</a></li>
+                                    </ul>
+                                
+                            </div>
+                        </li>
+                        <li>
+                            <div class="dropdown relative border-b border-white">
+                                <a class="py-4 px-1.25 inline-flex items-center">
+                                    <span class="hover:text-third">Ил Тод Байдал</span>
+                                </a>
+                                <ul class="dropdown-menu hidden font-subs text-0.1xs">
+                                    <li><a class="border-b border-white hover:font-bold py-1.5 px-2 ml-3.75 w-74 block" href="#">Үйл ажиллагааны ил тод байдал</a></li>
+                                    <li><a class="border-b border-white hover:font-bold py-1.5 px-2 ml-3.75 w-74 block" href="#">Хүний нөөцийн ил тод байдал</a></li>
+                                    <li><a class="border-b border-white hover:font-bold py-1.5 px-2 ml-3.75 w-74 block" href="#">Төрийн албаны салбар зөвлөл</a></li>
+                                    <li><a class="border-b border-white hover:font-bold py-1.5 px-2 ml-3.75 w-74 block" href="#">Төсөв санхүүгийн ил тод байдал</a></li>
+                                    <li><a class="border-b border-white hover:font-bold py-1.5 px-2 ml-3.75 w-74 block" href="#">Тендерийн баримт бичгийн ил тод байдал</a></li>
+                                    <li><a class="border-b border-white hover:font-bold py-1.5 px-2 ml-3.75 w-74 block" href="#">Иргэдийн санал гомдлын тойм</a></li>
+                                    <li><a class="border-b border-white hover:font-bold py-1.5 px-2 ml-3.75 w-74 block" href="#">Хяналт шинжилгээ үнэлгээ, дотоод аудит</a></li>
+                                    <li><a class="border-b border-white hover:font-bold py-1.5 px-2 ml-3.75 w-74 block" href="#">Авилгын эсрэг</a></li>
+                                    <li><a class="hover:font-bold py-1.5 px-2 ml-3.75 w-74 block" href="#">Ёс зүйн хороо</a></li>
+                                </ul>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="dropdown relative border-b border-white">
+                                <a class="py-4 px-1.25 inline-flex items-center">
+                                    <span class="hover:text-third">Шилэн Данс</span>
+                                </a>
+                                <ul class="dropdown-menu hidden font-subs text-0.1xs">
+                                    <li><a class="border-b border-white hover:font-bold py-1.5 px-2 ml-3.75 w-74 block" href="#">Төсвийн ерөнхийлөн захирагч</a></li>
+                                    <li><a class="border-b border-white hover:font-bold py-1.5 px-2 ml-3.75 w-74 block" href="#">Эрүүл мэндийн яам</a></li>
+                                    <li><a class="border-b border-white hover:font-bold py-1.5 px-2 ml-3.75 w-74 block" href="#">Тодруулга өгөх мэргэжилтэн</a></li>
+                                    <li><a class="border-b border-white hover:font-bold py-1.5 px-2 ml-3.75 w-74 block" href="#">Харьяа байгууллага</a></li>
+                                    <li><a class="hover:font-bold py-1.5 px-2 ml-3.75 w-74 block" href="#">Орон нутаг</a></li>
+                                </ul>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="dropdown relative">
+                                <a class="py-4 px-1.25 inline-flex items-center">
+                                    <span class="hover:text-third">Холбоо Барих</span>
+                                </a>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+
+            </div>
+        </nav>
+    </header>
+
+    <div class="container flex flex-col p-4 space-y-3 px-3 sm:px-14 md:px-6 lg:px-16 xl:px-25">
+        <p class="text-xs text-gray-500">
+            <a href="#" class="hover:text-blue-600"> Нүүр /</a>
+            <a href="#" class="hover:text-blue-600"> Цаг үеийн мэдээ /
+            </a>Эрүүл мэндийн сайд С.Энхболд вакцинжуулалтыг зохион байгуулж буй эмнэлгийн удирдлагатай цахим хурал хийв</p>
+        <div class="container flex flex-col sm:flex-row sm:space-x-8 space-y-4">
+            
+            <div class="flex flex-col bg-white sm:w-2/3 h-auto p-3 text-gray-800">
+                <div class="relative text-gray-600 font-black text-md mb-2">Эрүүл мэндийн сайд С.Энхболд вакцинжуулалтыг зохион байгуулж буй эмнэлгийн удирдлагатай цахим хурал хийв
+                
+                    <div class="absolute bottom-0 right-0 flex flex-row space-x-1">
+                        <div class="hidden md:block h-6 hover:bg-gray-300 hover:text-blue-400 w-8 border-3 squared text-black px-1 border-2 text-sm">
+                            A-
+                        </div>
+                        <div class="hidden md:block h-6 hover:bg-gray-300 hover:text-blue-400 w-8 border-3 squared text-black px-1 border-2 text-sm">
+                            A
+                        </div>
+                        <div class="hidden md:block h-6 hover:bg-gray-300 hover:text-blue-400 w-8 border-3 squared text-black px-1 border-2 text-sm">
+                            A+
+                        </div>
+                    </div>
+                </div>
+                <div class="flex flex-row">
+                <svg class="fill-current text-gray-500 w-4" version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"viewBox="0 0 512 512" style="enable-background:new 0 0 512 512;" xml:space="preserve"><g><g><path d="M452,40h-24V0h-40v40H124V0H84v40H60C26.916,40,0,66.916,0,100v352c0,33.084,26.916,60,60,60h392c33.084,0,60-26.916,60-60V100C512,66.916,485.084,40,452,40z M472,452c0,11.028-8.972,20-20,20H60c-11.028,0-20-8.972-20-20V188h432V452z M472,148H40v-48c0-11.028,8.972-20,20-20h24v40h40V80h264v40h40V80h24c11.028,0,20,8.972,20,20V148z"/></g></g><g>	<g><rect x="76" y="230" width="40" height="40"/></g></g><g><g><rect x="156" y="230" width="40" height="40"/></g></g><g><g><rect x="236" y="230" width="40" height="40"/></g></g><g><g><rect x="316" y="230" width="40" height="40"/></g></g><g><g><rect x="396" y="230" width="40" height="40"/></g></g><g><g><rect x="76" y="310" width="40" height="40"/></g></g><g><g><rect x="156" y="310" width="40" height="40"/></g></g><g><g><rect x="236" y="310" width="40" height="40"/></g></g><g><g><rect x="316" y="310" width="40" height="40"/></g></g><g><g><rect x="76" y="390" width="40" height="40"/></g></g><g><g><rect x="156" y="390" width="40" height="40"/></g></g><g><g><rect x="236" y="390" width="40" height="40"/></g></g><g><g><rect x="316" y="390" width="40" height="40"/></g></g><g><g><rect x="396" y="310" width="40" height="40"/></g></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g></svg>
+                <p class="text-gray-500 text-xs">	&nbsp;2021-03-14 06:07:00   	&nbsp;/&nbsp;&nbsp;</p>
+                <svg class="w-4 fill-current text-gray-500" id="Capa_1" enable-background="new 0 0 512.012 512.012" viewBox="0 0 512.012 512.012" xmlns="http://www.w3.org/2000/svg"><g><path d="m333.201 115.038c-28.905-59.021-89.37-98.042-157.193-98.042-97.047 0-176 78.505-176 175 0 26.224 5.63 51.359 16.742 74.794l-16.451 82.265c-2.094 10.472 7.144 19.728 17.618 17.656l83.279-16.465c11.213 5.319 22.813 9.364 34.732 12.151-26.717-126.541 69.199-245.321 197.273-247.359z"/><path d="m495.266 394.79c2.874-6.061 5.373-12.237 7.511-18.514h-.549c37.448-109.917-41.305-225.441-157.567-231.066-.002-.006-.003-.012-.005-.018-100.036-4.61-183.148 75.486-183.148 174.804 0 96.414 78.361 174.857 174.743 174.997 26.143-.035 51.201-5.663 74.568-16.747 91.207 18.032 84.094 16.75 86.189 16.75 9.479 0 16.56-8.686 14.709-17.941z"/></g></svg>
+                <p class="text-gray-500 text-xs">&nbsp;0</p>
+                </div>
+                <hr class="my-4">
+                <img src="http://www.moh.gov.mn/uploads/content_picture/2f637eb41002d5bf6dc7549d4b2a535b117942a5.jpg" class="w-full"></img>
+                <p class="text-xs text-gray-600 my-1">
+                2021 оны 3 дугаар сарын 14 өдөр Эрүүл мэндийн сайд С.Энхболд COVID-19 өвчний эсрэг дархлаажуулалтын ажлыг гүйцэтгэж буй Нийслэлийн эрүүл мэндийн газар, Дүүргийн эрүүл мэндийн төвийн дарга нартай цахимаар уулзалт хийв.Уулзалтаар вакцинжуулалтанд тулгамдаж буй асуудлыг хэлэлцэж, шийдвэрлэх арга замын талаар зөвлөлдлөө. <br>  Тухайлбал зарим дүүрэг эмч нарын ачааллыг тэнцвэржүүлж, сэлгэн ажиллуулах хэлбэрээр эмчийг амраах цаг гаргаж өгч байна. Мөн зарим дүүрэг эмч нарын илүү цагийн хөлсийг яамнаас шийдсэн дор нь хуваарилж, эмч нарын гарт өгчээ.  Иймээс сайн ажиллаж буй дүүргийн удирдлагын ажлаас бусад нь суралцаж асуудлыг түргэн шуурхай шийдвэрлэх чиглэлд анхаарч ажиллахыг Эрүүл мэндийн сайд С.Энхболд анхаарууллаа.
+                </p>
+                <img src="https://www.moh.gov.mn/uploads/userfiles/images/DSC_8943.JPG" class="w-full"></img>
+                <p class="text-xs text-gray-600 my-1">
+                COVID-19 өвчний хүрээнд зохион байгуулагдсан өмнөх арга хэмжээнд оролцсон Дүүргийн эрүүл мэндийн төвийн эмч, өрхийн эрүүл мэндийн төвийн эмч нарын илүү цагийн мөнгийг 2021 оны 2 дугаар сарын 23 өдөр Эрүүл мэндийн сайд тушаал гарган Нийслэлийн эрүүл мэндийн газарт шилжүүлсэн. Гэтэл зарим дүүрэг нь 2021 оны 2 дугаар сарын 28 өдөр эмч нартаа илүү цагийн хөлсийг шилжүүлсэн байна. Нэг хэсэг нь 3 дугаар сарын 5 гэхэд илүү цагийн ажлын хөлсийг эмч нарын дансанд шилжүүлжээ. Харин Хан-Уул, Баянзүрх дүүргийн хувьд эмч нарт илүү цагийн хөлсийг олгоогүй байна. Баянзүрх дүүргийн хэд хэдэн вакцинжуулалтын цэгээр ороход эмч нар илүү цагийн мөнгөө авч чадаагүй гэдгээ хэлж, шийдэж өгөхийг хүслээ. Энэ асуудлыг нэн яаралтай буюу 2021 оны 3 дугаар сарын 15 гэхэд шийдвэрлэх чиглэлийг Баянзүрх болон Хан-Уул дүүргийн эрүүл мэндийн төвийн дарга нарт Эрүүл мэндийн сайд С.Энхболд үүрэг болгов.
+                </p>
+                <img src="https://www.moh.gov.mn/uploads/userfiles/images/DSC_8919.JPG" class="w-full"></img>
+                <p class="text-xs text-gray-600 my-1">
+                Өдөрт 15 мянга орчим иргэнийг вакцинжуулах ажлыг хийж буй. Энэ үед эмч нарын ачааллыг анхаарч зохион байгуулалтаа хийхийг эмнэлгийн удирдлагуудад зөвлөв. Цаашид хоёр дахь тунг хийж эхлэх үед вакцинд өдөрт хамруулах хүний тоо нэмэгдэнэ. Иймээс ачаалал өсөх учраас хаана хаанаа анхааралттай байж, алдаа гаргахгүй, зохион байгуулалтаа маш сайн хийж ажиллах шаардлагатай байгааг Эрүүл мэндийн сайд С.Энхболд анхааруулж, зохих арга хэмжээг шуурхай авч ажиллахыг чиглэл болгосон юм.
+                </p>
+                <img src="https://www.moh.gov.mn/uploads/userfiles/images/DSC_8926.JPG" class="w-full mb-2"></img>
+                <div class="flex flex-row space-x-4">
+                <button class="flex flex-row space-x-2 bg-blue-600 text-sm text-white py-1 px-3 justify-center items-center rounded">
+                    <svg class="w-4 fill-current text-white" version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"viewBox="0 0 512 512" style="enable-background:new 0 0 512 512;" xml:space="preserve"><g><g><path d="M512,304c0-12.821-5.099-24.768-13.888-33.579c9.963-10.901,15.04-25.515,13.653-40.725c-2.496-27.115-26.923-48.363-55.637-48.363H324.352c6.528-19.819,16.981-56.149,16.981-85.333c0-46.272-39.317-85.333-64-85.333c-22.144,0-37.995,12.48-38.656,12.992c-2.539,2.027-4.011,5.099-4.011,8.341v72.341L173.205,237.44l-2.539,1.301v-4.075c0-5.888-4.779-10.667-10.667-10.667H53.333C23.915,224,0,247.915,0,277.333V448c0,29.419,23.915,53.333,53.333,53.333h64c23.061,0,42.773-14.72,50.197-35.264C185.28,475.2,209.173,480,224,480h195.819c23.232,0,43.563-15.659,48.341-37.248c2.453-11.136,1.024-22.336-3.84-32.064c15.744-7.915,26.347-24.192,26.347-42.688c0-7.552-1.728-14.784-4.992-21.312C501.419,338.752,512,322.496,512,304z M467.008,330.325c-4.117,0.491-7.595,3.285-8.917,7.232c-1.301,3.947-0.213,8.277,2.816,11.136c5.419,5.099,8.427,11.968,8.427,19.307c0,13.461-10.176,24.768-23.637,26.325c-4.117,0.491-7.595,3.285-8.917,7.232c-1.301,3.947-0.213,8.277,2.816,11.136c7.019,6.613,9.835,15.893,7.723,25.451c-2.624,11.904-14.187,20.523-27.499,20.523H224c-17.323,0-46.379-8.128-56.448-18.219c-3.051-3.029-7.659-3.925-11.627-2.304c-3.989,1.643-6.592,5.547-6.592,9.856c0,17.643-14.357,32-32,32h-64c-17.643,0-32-14.357-32-32V277.333c0-17.643,14.357-32,32-32h96V256c0,3.691,1.92,7.125,5.077,9.088c3.115,1.877,7.04,2.069,10.368,0.448l21.333-10.667c2.155-1.067,3.883-2.859,4.907-5.056l64-138.667c0.64-1.408,0.981-2.944,0.981-4.48V37.781C260.437,35.328,268.139,32,277.333,32C289.024,32,320,61.056,320,96c0,37.547-20.437,91.669-20.629,92.203c-1.237,3.264-0.811,6.955,1.173,9.856c2.005,2.88,5.291,4.608,8.789,4.608h146.795c17.792,0,32.896,12.736,34.389,28.992c1.131,12.16-4.715,23.723-15.189,30.187c-3.264,2.005-5.205,5.632-5.056,9.493s2.368,7.317,5.781,9.088c9.024,4.587,14.613,13.632,14.613,23.573C490.667,317.461,480.491,328.768,467.008,330.325z"/></g></g><g><g><path d="M160,245.333c-5.888,0-10.667,4.779-10.667,10.667v192c0,5.888,4.779,10.667,10.667,10.667s10.667-4.779,10.667-10.667V256C170.667,250.112,165.888,245.333,160,245.333z"/></g></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g></svg>
+                    <p class="font-bold">Like 0</p>
+                </button>
+
+                <button class="flex flex-row space-x-2 bg-blue-600 text-sm text-white py-1 px-3 justify-center items-center rounded">
+                    <p class="font-bold">Share</p>
+                </button>
+
+                <button class="flex flex-row space-x-2 border-2 border-gray-300 text-sm text-blue-600 py-1 px-3 justify-center items-center rounded">
+                    <svg class="w-3 fill-current text-blue-600" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20"><path d="M2 2c0-1.1.9-2 2-2h12a2 2 0 0 1 2 2v18l-8-4-8 4V2z"/></svg>
+                    <p class="font-bold">Save to Facebook</p>
+                </button>
+
+                </div>
+                <hr class="my-5">
+                <div class="container flex flex-row space-x-20">
+                    <p class="text-sm font-bold">0 Comments</p>
+                    <select class="hidden sm:block border-2 border-gray-300">
+                        <option>Oldest</option>
+                        <option>Newest</option>
+                    </select>
+                </div>
+                <hr class="my-5">
+                <div class="flex flex-row space-x-3">
+                    <img src="img/profile.png" alt="" class="w-12">
+                    <input type="text" name="first_name" id="first_name " class="border-2 border-gray-200 w-full p-3" placeholder="Add a comment">
+                </div>
+                <hr class="my-5">
+
+                <!--Holbootoi medeelel-->
+                <div class="text-md text-second font-bold border-l-4 border-third my-3"> <p class="mx-2"> Холбоотой мэдээ, мэдээлэл</p></div>
+                <div class="grid grid-cols-1 md:grid-cols-3 ">
+                    <div class="flex flex-col py-2">
+                        <a href="#">    
+                            <img src="http://www.moh.gov.mn/uploads/content_picture/c83a63c23bf50ab817c5851410b7e2c3c8abc96d.jpg" alt="" class=" object-cover h-20 w-full">
+                            <p class="text-xs text-gray-700 font-bold">ЭМЯ-аас Баянгол дүүргийн ЭМТ-д PCR шинжилгээний лабораторийг байгууллаа</p>
+                        </a>
+                    </div>
+                    <div class="flex flex-col py-2">
+                        <a href="#">    
+                            <img src="http://www.moh.gov.mn/uploads/content_picture/fbf9e835291dd0e0310baaafc08e121cc60eb982.jpg" alt="" class=" object-cover h-20 w-full">
+                            <p class="text-xs text-gray-700 font-bold">ЭМЯ-аас Сонгинохайрхан дүүрэгт PCR шинжилгээний лабораторийг шинээр байгууллаа</p>
+                        </a>
+                    </div>
+                    <div class="flex flex-col py-2">
+                        <a href="#">    
+                            <img src="http://www.moh.gov.mn/uploads/content_picture/c385413309b60a0908eda84c015a8c405a6c6460.jpg" alt="" class=" object-cover h-20 w-full">
+                            <p class="text-xs text-gray-700 font-bold">ЧИНГЭЛТЭЙ ДҮҮРГИЙН ЭМТ-д PCR ШИНЖИЛГЭЭНИЙ ЛАБОРАТОРИ БАЙГУУЛЛАА</p>
+                        </a>
+                    </div>
+                    <div class="flex flex-col py-2">
+                        <a href="#">    
+                            <img src="https://www.moh.gov.mn/uploads/content_picture/ef11224754a44ef4828b983be959c01263f463e0.jpg" alt="" class=" object-cover h-20 w-full">
+                            <p class="text-xs text-gray-700 font-bold">ЭМЯ-аас СБДЭМТ-д PCR шинжилгээний лабораторийг шинээр байгууллаа</p>
+                        </a>
+                    </div>
+                    <div class="flex flex-col py-2">
+                        <a href="#">    
+                            <img src="http://www.moh.gov.mn/uploads/content_picture/bebb117721f993281c05b180a9342b5f642a6795.jpg" alt="" class=" object-cover h-20 w-full">
+                            <p class="text-xs text-gray-700 font-bold">Олон улсын эмнэлзүйн “UpToDate” платформыг эмч мэргэжилтнүүдийн 37 хувь нь ашиглаж эхэллээ</p>
+                        </a>
+                    </div>
+                    <div class="flex flex-col py-2">
+                        <a href="#">    
+                            <img src="http://www.moh.gov.mn/uploads/content_picture/b6878c5535f19b93d05bc89e216af67ae1837ff3.jpg" alt="" class=" object-cover h-20 w-full">
+                            <p class="text-xs text-gray-700 font-bold">МонгПЕН төслийг хэрэгжүүлсэн нэг жилийн хугацаанд Сонгинохайрхан дүүрэгт тархины харвалтын шалтгаант нас баралт 1.4 дахин буурлаа</p>
+                        </a>
+                    </div>
+                </div>
+
+                
+            </div>
+
+            <div class="flex flex-col space-y-5 sm:w-1/3">
+                <div class="flex flex-col text-gray-800">
+                    <div class="text-md text-second font-bold border-l-4 border-third mb-3"> <p class="mx-2"> Мэдээний ангилал</p></div>   
+                    <table class="">
+                        <tr>
+                            <td class="bg-third py-1 px-3 border-2 border-solid border-gray-300">
+                                <a href="#" class="text-xs text-white hover:text-blue-600">Цаг үеийн мэдээ</a></td>
+                        </tr>
+                        <tr>
+                            <td class="bg-white py-1 px-3 border-2 border-solid border-gray-300">
+                                <a href="#" class="text-xs text-black hover:text-blue-600">(COVID-19) халдварын эмнэлзүйн заавар удирдамжууд</a></td>
+                        </tr>
+                        <tr>
+                            <td class="bg-white py-1 px-3 border-2 border-solid border-gray-300">
+                                <a href="#" class="text-xs text-black hover:text-blue-600">Коронавируст халдвар (COVID-19)-ын үед эмнэлгийн тусламжийн бэлэн байдлыг хангахад чиглэсэн заавар зөвлөмж</a></td>
+                        </tr>
+                        <tr>
+                            <td class="bg-white py-1 px-3 border-2 border-solid border-gray-300">
+                                <a href="#" class="text-xs text-black hover:text-blue-600">Коронавируст халдвар (COVID-19)-ын бэлэн байдлыг хангахад чиглэсэн сургалт, илтгэл</a></td>
+                        </tr>
+                        <tr>
+                            <td class="bg-white py-1 px-3 border-2 border-solid border-gray-300">
+                                <a href="#" class="text-xs text-black hover:text-blue-600">Хүлээгдлийн мэдээ</a></td>
+                        </tr>
+                    </table>
+                </div>
+
+                <div class="sm:pr-20 md:pr-1">
+                    <div class="text-md text-second font-bold border-l-4 border-third mb-3"> <p class="mx-2"> Сошиалд дагаарай</p></div>  
+                                                            <!--Facebook-->
+                    <div class="w-5/6 sm:w-full">
+                        <div class="flex flex-col ">
+                            <div class="h-16 p-2 flex flex-row bg-gray-400 space-x-2">
+                                <img class="w-12 border-2 border-white" src="img/emy.jpg"></img>
+                                <div class="flex flex-col">
+                                    <div class="flex flex-row space-x-2">
+                                        <p class="text-lg text-white font-bold">Эрүүл Мэндийн Яам</p>
+                                        <svg class="w-4" enable-background="new 0 0 24 24"  viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="m12 0c-6.617 0-12 5.383-12 12s5.383 12 12 12 12-5.383 12-12-5.383-12-12-12z" fill="#2196f3"/><path d="m18.082 9.457-6.5 6.5c-.195.195-.451.293-.707.293s-.512-.098-.707-.293l-3.25-3.25c-.391-.391-.391-1.023 0-1.414s1.023-.391 1.414 0l2.543 2.543 5.793-5.793c.391-.391 1.023-.391 1.414 0s.391 1.023 0 1.414z" fill="#fafafa"/><path d="m12 0c-6.617 0-12 5.383-12 12s5.383 12 12 12v-8.461l-.418.418c-.195.195-.451.293-.707.293s-.512-.098-.707-.293l-3.25-3.25c-.391-.391-.391-1.023 0-1.414.195-.195.451-.293.707-.293s.512.098.707.293l2.543 2.543 1.125-1.125z" fill="#1d83d4"/><path d="m7.625 11c-.256 0-.512.098-.707.293-.391.391-.391 1.023 0 1.414l3.25 3.25c.195.195.451.293.707.293s.512-.098.707-.293l.418-.418v-2.828l-1.125 1.125-2.543-2.543c-.195-.195-.451-.293-.707-.293z" fill="#dadada"/></svg>
+                                    </div>
+
+                                    <div class="flex flex-row">
+                                        <button class="flex flex-row p-1 h-5 w-20 text-xs bg-white text-blue-800 font-bold space-x-1">
+                                            <img class="w-3" src="img/fb.png"></img>
+                                            <p>Like Page</p>
+                                        </button>
+                                        <p class="text-white text-xs p-1">323K likes</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="flex flex-row justify-around h-10 w-full bg-white">
+                            <button class="border-none text-blue-900 text-xs p-2 font-bold">
+                                <div class="p-2 border-b-4 border-primary">
+                                    Timeline
+                                </div>
+                            </button>
+                            <button class="border-none text-blue-900 text-xs p-2 font-bold">
+                                Messages
+                            </button>
+                        </div> 
+                        <div class="flex flex-col h-30vh bg-gray-100 m-2 overflow-y-scroll">
+                            <div class="mb-2 bg-white">
+                                <img class="w-full" src="img/fb/1.jpg" alt="">
+                                <div class=" h-12 p-2 flex flex-row bg-white space-x-2">
+                                    <img class="w-8 rounded-full" src="img/emy.jpg"></img>
+                                    <div class="flex flex-col w-4/5">
+                                        <p class="text-sm text-black font-bold">Эрүүл Мэндийн Яам</p>
+                                        <p class="text-xs text-gray-400">7 hours ago</p>
+                                    </div>
+                                    <div class="">
+                                        <img src="img/fb.png" class="w-6 rounded-full" alt="">
+                                    </div>
+                                </div>
+                                <div class="flex flex-row space-x-4 p-3 border-t-2 border-gray-100">
+                                    <div class="flex flex-row space-x-1">
+                                        <svg class="fill-current text-gray-500 h-3" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20"><path d="M11 0h1v3l3 7v8a2 2 0 0 1-2 2H5c-1.1 0-2.31-.84-2.7-1.88L0 12v-2a2 2 0 0 1 2-2h7V2a2 2 0 0 1 2-2zm6 10h3v10h-3V10z"/></svg>
+                                        <p class="text-xs text-gray-500">4</p>
+                                    </div>
+                                    <div class="flex flex-row space-x-1">
+                                        <svg class="fill-current text-gray-500 h-3" version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 60 60" style="enable-background:new 0 0 60 60;" xml:space="preserve"><path d="M6,2h48c3.252,0,6,2.748,6,6v33c0,3.252-2.748,6-6,6H25.442L15.74,57.673C15.546,57.885,15.276,58,15,58c-0.121,0-0.243-0.022-0.361-0.067C14.254,57.784,14,57.413,14,57V47H6c-3.252,0-6-2.748-6-6L0,8C0,4.748,2.748,2,6,2z"/><g></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g></svg>
+                                        <p class="text-xs text-gray-500">Comment</p>
+                                    </div>
+                                    <div class="flex flex-row space-x-1 ">
+                                        <svg class="fill-current text-gray-500 h-3" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20"><path d="M4 10c0-1.1.9-2 2-2h8c1.1 0 2 .9 2 2v8c0 1.1-.9 2-2 2H6c-1.1 0-2-.9-2-2v-8zm2 0v8h8v-8h-2V8H8v2H6zm3-6.17V16h2V3.83l3.07 3.07 1.42-1.41L10 0l-.7.7-4.8 4.8 1.42 1.4L9 3.84z"/></svg>
+                                        <p class="text-xs text-gray-500">4</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="mb-2 bg-white">
+                                <img class="w-full" src="img/fb/2.jpg" alt="">
+                                <div class=" h-12 p-2 flex flex-row bg-white space-x-2">
+                                    <img class="w-8 rounded-full" src="img/emy.jpg"></img>
+                                    <div class="flex flex-col w-4/5">
+                                        <p class="text-sm text-black font-bold">Эрүүл Мэндийн Яам</p>
+                                        <p class="text-xs text-gray-400">8 hours ago</p>
+                                    </div>
+                                    <div class="">
+                                        <img src="img/fb.png" class="w-6 rounded-full" alt="">
+                                    </div>
+                                </div>
+                                <div class="flex flex-row space-x-4 p-3 border-t-2 border-gray-100">
+                                    <div class="flex flex-row space-x-1">
+                                        <svg class="fill-current text-gray-500 h-3" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20"><path d="M11 0h1v3l3 7v8a2 2 0 0 1-2 2H5c-1.1 0-2.31-.84-2.7-1.88L0 12v-2a2 2 0 0 1 2-2h7V2a2 2 0 0 1 2-2zm6 10h3v10h-3V10z"/></svg>
+                                        <p class="text-xs text-gray-500">5</p>
+                                    </div>
+                                    <div class="flex flex-row space-x-1">
+                                        <svg class="fill-current text-gray-500 h-3" version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 60 60" style="enable-background:new 0 0 60 60;" xml:space="preserve"><path d="M6,2h48c3.252,0,6,2.748,6,6v33c0,3.252-2.748,6-6,6H25.442L15.74,57.673C15.546,57.885,15.276,58,15,58c-0.121,0-0.243-0.022-0.361-0.067C14.254,57.784,14,57.413,14,57V47H6c-3.252,0-6-2.748-6-6L0,8C0,4.748,2.748,2,6,2z"/><g></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g></svg>
+                                        <p class="text-xs text-gray-500">Comment</p>
+                                    </div>
+                                    <div class="flex flex-row space-x-1 ">
+                                        <svg class="fill-current text-gray-500 h-3" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20"><path d="M4 10c0-1.1.9-2 2-2h8c1.1 0 2 .9 2 2v8c0 1.1-.9 2-2 2H6c-1.1 0-2-.9-2-2v-8zm2 0v8h8v-8h-2V8H8v2H6zm3-6.17V16h2V3.83l3.07 3.07 1.42-1.41L10 0l-.7.7-4.8 4.8 1.42 1.4L9 3.84z"/></svg>
+                                        <p class="text-xs text-gray-500">3</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="mb-2 bg-white">
+                                <p class="m-2 text-sm text-black">КОРОНАВИРУСТ ХАЛДВАР (COVID-19)-ЫН НӨХЦӨЛ БАЙДЛЫН ХЭВЛЭЛИЙН ХУРАЛ /2021.03.20-НЫ 11 ЦАГ/</p>
+                                <div class=" h-12 p-2 flex flex-row bg-white space-x-2">
+                                    <img class="w-8 rounded-full" src="img/emy.jpg"></img>
+                                    <div class="flex flex-col w-4/5">
+                                        <p class="text-sm text-black font-bold">Эрүүл Мэндийн Яам</p>
+                                        <p class="text-xs text-gray-400">7 hours ago</p>
+                                    </div>
+                                    <div class="">
+                                        <img src="img/fb.png" class="w-6 rounded-full" alt="">
+                                    </div>
+                                </div>
+                                <div class="flex flex-row space-x-4 p-3 border-t-2 border-gray-100">
+                                    <div class="flex flex-row space-x-1">
+                                        <svg class="fill-current text-gray-500 h-3" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20"><path d="M11 0h1v3l3 7v8a2 2 0 0 1-2 2H5c-1.1 0-2.31-.84-2.7-1.88L0 12v-2a2 2 0 0 1 2-2h7V2a2 2 0 0 1 2-2zm6 10h3v10h-3V10z"/></svg>
+                                        <p class="text-xs text-gray-500">4</p>
+                                    </div>
+                                    <div class="flex flex-row space-x-1">
+                                        <svg class="fill-current text-gray-500 h-3" version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 60 60" style="enable-background:new 0 0 60 60;" xml:space="preserve"><path d="M6,2h48c3.252,0,6,2.748,6,6v33c0,3.252-2.748,6-6,6H25.442L15.74,57.673C15.546,57.885,15.276,58,15,58c-0.121,0-0.243-0.022-0.361-0.067C14.254,57.784,14,57.413,14,57V47H6c-3.252,0-6-2.748-6-6L0,8C0,4.748,2.748,2,6,2z"/><g></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g></svg>
+                                        <p class="text-xs text-gray-500">Comment</p>
+                                    </div>
+                                    <div class="flex flex-row space-x-1 ">
+                                        <svg class="fill-current text-gray-500 h-3" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20"><path d="M4 10c0-1.1.9-2 2-2h8c1.1 0 2 .9 2 2v8c0 1.1-.9 2-2 2H6c-1.1 0-2-.9-2-2v-8zm2 0v8h8v-8h-2V8H8v2H6zm3-6.17V16h2V3.83l3.07 3.07 1.42-1.41L10 0l-.7.7-4.8 4.8 1.42 1.4L9 3.84z"/></svg>
+                                        <p class="text-xs text-gray-500">4</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div> 
+                    </div>
+                    
+                    <!--Twitter-->
+                    <div class="flex flex-col w-5/6 sm:w-full rounded-lg bg-white h-auto">
+                        <div class="flex flex-row space-x-2 h-15 border-b-2 border-gray-100 p-2">
+                            <p class="text-xl font-bold">Tweets </p>
+                            <p class="flex flex-row text-xs my-2"> 
+                                by
+                                <a href="#" class="text-blue-600 hover:text-blue-400 ">@EruulMendiinYam</a>
+                            </p>
+                            <div class="container flex justify-end">
+                                <svg class="w-4 fill-current text-gray-400" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20"><path d="M2.93 17.07A10 10 0 1 1 17.07 2.93 10 10 0 0 1 2.93 17.07zm12.73-1.41A8 8 0 1 0 4.34 4.34a8 8 0 0 0 11.32 11.32zM9 11V9h2v6H9v-4zm0-6h2v2H9V5z"/></svg>
+                            </div>
+                            
+                        </div>
+                        <div class="h-40vh flex flex-col overflow-y-scroll">
+                            <div class="flex flex-col bg-white hover:bg-gray-200 h-auto">
+                                <div class="h-12 p-2 flex flex-row space-x-2">
+                                    <img class="w-8 rounded-full" src="img/emy.jpg"></img>
+                                    <div class="flex flex-col w-4/5">
+                                        <p class="text-sm text-black font-bold hover:text-blue-500"><a href="#">Эрүүл Мэндийн Яам</a></p>
+                                        <p class="text-xs text-gray-400">@EruulMendiinYam</p>
+                                    </div>
+                                    <div class="">
+                                        <svg class="fill-current text-gray-400 hover:text-blue-500 w-5" version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"viewBox="0 0 512 512" style="enable-background:new 0 0 512 512;" xml:space="preserve"><g><g><path d="M512,97.248c-19.04,8.352-39.328,13.888-60.48,16.576c21.76-12.992,38.368-33.408,46.176-58.016c-20.288,12.096-42.688,20.64-66.56,25.408C411.872,60.704,384.416,48,354.464,48c-58.112,0-104.896,47.168-104.896,104.992c0,8.32,0.704,16.32,2.432,23.936c-87.264-4.256-164.48-46.08-216.352-109.792c-9.056,15.712-14.368,33.696-14.368,53.056c0,36.352,18.72,68.576,46.624,87.232c-16.864-0.32-33.408-5.216-47.424-12.928c0,0.32,0,0.736,0,1.152c0,51.008,36.384,93.376,84.096,103.136c-8.544,2.336-17.856,3.456-27.52,3.456c-6.72,0-13.504-0.384-19.872-1.792c13.6,41.568,52.192,72.128,98.08,73.12c-35.712,27.936-81.056,44.768-130.144,44.768c-8.608,0-16.864-0.384-25.12-1.44C46.496,446.88,101.6,464,161.024,464c193.152,0,298.752-160,298.752-298.688c0-4.64-0.C480.224,136.96,497.728,118.496,512,97.248z"/></g></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g></svg>
+                                    </div>
+                                </div>
+                                <div class="pl-8 pt-4 flex flex-col space-y-3 border-b-2 border-gray-100">
+                                    <a href="#">
+                                        <img class="w-full h-auto" src="img/fb/6.jpg" alt="">
+                                    </a>
+                                    <div class="flex flex-row h-10 space-x-6">
+                                        <a href="#">
+                                            <svg class="w-4 fill-current text-gray-400 hover:text-red-500" viewBox="0 -28 512.001 512" xmlns="http://www.w3.org/2000/svg"><path d="m256 455.515625c-7.289062 0-14.316406-2.640625-19.792969-7.4375-20.683593-18.085937-40.625-35.082031-58.21875-50.074219l-.089843-.078125c-51.582032-43.957031-96.125-81.917969-127.117188-119.3125-34.644531-41.804687-50.78125-81.441406-50.78125-124.742187 0-42.070313 14.425781-80.882813 40.617188-109.292969 26.503906-28.746094 62.871093-44.578125 102.414062-44.578125 29.554688 0 56.621094 9.34375 80.445312 27.769531 12.023438 9.300781 22.921876 20.683594 32.523438 33.960938 9.605469-13.277344 20.5-24.660157 32.527344-33.960938 23.824218-18.425781 50.890625-27.769531 80.445312-27.769531 39.539063 0 75.910156 15.832031 102.414063 44.578125 26.191406 28.410156 40.613281 67.222656 40.613281 109.292969 0 43.300781-16.132812 82.9375-50.777344 124.738281-30.992187 37.398437-75.53125 75.355469-127.105468 119.308594-17.625 15.015625-37.597657 32.039062-58.328126 50.167969-5.472656 4.789062-12.503906 7.429687-19.789062 7.429687zm-112.96875-425.523437c-31.066406 0-59.605469 12.398437-80.367188 34.914062-21.070312 22.855469-32.675781 54.449219-32.675781 88.964844 0 36.417968 13.535157 68.988281 43.882813 105.605468 29.332031 35.394532 72.960937 72.574219 123.476562 115.625l.09375.078126c17.660156 15.050781 37.679688 32.113281 58.515625 50.332031 20.960938-18.253907 41.011719-35.34375 58.707031-50.417969 50.511719-43.050781 94.136719-80.222656 123.46875-115.617188 30.34375-36.617187 43.878907-69.1875 43.878907-105.605468 0-34.515625-11.605469-66.109375-32.675781-88.964844-20.757813-22.515625-49.300782-34.914062-80.363282-34.914062-22.757812 0-43.652344 7.234374-62.101562 21.5-16.441406 12.71875-27.894532 28.796874-34.609375 40.046874-3.453125 5.785157-9.53125 9.238282-16.261719 9.238282s-12.808594-3.453125-16.261719-9.238282c-6.710937-11.25-18.164062-27.328124-34.609375-40.046874-18.449218-14.265626-39.34375-21.5-62.097656-21.5zm0 0"/></svg>
+                                        </a>
+                                        <a href="#">
+                                            <svg class="w-4 fill-current text-gray-400 hover:text-blue-500" viewBox="0 0 512 512"  xmlns="http://www.w3.org/2000/svg"><g id="Solid"><path d="m182.461 155.48 49.539-49.539v262.059a24 24 0 0 0 48 0v-262.059l49.539 49.539a24 24 0 1 0 33.941-33.941l-90.509-90.51a24 24 0 0 0 -33.942 0l-90.509 90.51a24 24 0 1 0 33.941 33.941z"/><path d="m464 232a24 24 0 0 0 -24 24v184h-368v-184a24 24 0 0 0 -48 0v192a40 40 0 0 0 40 40h384a40 40 0 0 0 40-40v-192a24 24 0 0 0 -24-24z"/></g></svg>
+                                        </a>
+                                        <div class="container flex justify-end">
+                                            <p class="text-gray-400 text-xs">Mar 18, 2021</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="flex flex-col bg-white hover:bg-gray-200 h-auto">
+                                <div class="h-12 p-2 flex flex-row space-x-2">
+                                    <img class="w-8 rounded-full" src="img/emy.jpg"></img>
+                                    <div class="flex flex-col w-4/5">
+                                        <p class="text-sm text-black font-bold hover:text-blue-500"><a href="#">Эрүүл Мэндийн Яам</a></p>
+                                        <p class="text-xs text-gray-400">@EruulMendiinYam</p>
+                                    </div>
+                                    <div class="">
+                                        <svg class="fill-current text-gray-400 hover:text-blue-500 w-5" version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"viewBox="0 0 512 512" style="enable-background:new 0 0 512 512;" xml:space="preserve"><g><g><path d="M512,97.248c-19.04,8.352-39.328,13.888-60.48,16.576c21.76-12.992,38.368-33.408,46.176-58.016c-20.288,12.096-42.688,20.64-66.56,25.408C411.872,60.704,384.416,48,354.464,48c-58.112,0-104.896,47.168-104.896,104.992c0,8.32,0.704,16.32,2.432,23.936c-87.264-4.256-164.48-46.08-216.352-109.792c-9.056,15.712-14.368,33.696-14.368,53.056c0,36.352,18.72,68.576,46.624,87.232c-16.864-0.32-33.408-5.216-47.424-12.928c0,0.32,0,0.736,0,1.152c0,51.008,36.384,93.376,84.096,103.136c-8.544,2.336-17.856,3.456-27.52,3.456c-6.72,0-13.504-0.384-19.872-1.792c13.6,41.568,52.192,72.128,98.08,73.12c-35.712,27.936-81.056,44.768-130.144,44.768c-8.608,0-16.864-0.384-25.12-1.44C46.496,446.88,101.6,464,161.024,464c193.152,0,298.752-160,298.752-298.688c0-4.64-0.C480.224,136.96,497.728,118.496,512,97.248z"/></g></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g></svg>
+                                    </div>
+                                </div>
+                                <div class="pl-8 pt-4 flex flex-col space-y-3 border-b-2 border-gray-100">
+                                    <a href="#">
+                                        <img class="w-full h-auto" src="img/fb/3.jpg" alt="">
+                                    </a>
+                                    <div class="flex flex-row h-10 space-x-6">
+                                        <a href="#">
+                                            <svg class="w-4 fill-current text-gray-400 hover:text-red-500" viewBox="0 -28 512.001 512" xmlns="http://www.w3.org/2000/svg"><path d="m256 455.515625c-7.289062 0-14.316406-2.640625-19.792969-7.4375-20.683593-18.085937-40.625-35.082031-58.21875-50.074219l-.089843-.078125c-51.582032-43.957031-96.125-81.917969-127.117188-119.3125-34.644531-41.804687-50.78125-81.441406-50.78125-124.742187 0-42.070313 14.425781-80.882813 40.617188-109.292969 26.503906-28.746094 62.871093-44.578125 102.414062-44.578125 29.554688 0 56.621094 9.34375 80.445312 27.769531 12.023438 9.300781 22.921876 20.683594 32.523438 33.960938 9.605469-13.277344 20.5-24.660157 32.527344-33.960938 23.824218-18.425781 50.890625-27.769531 80.445312-27.769531 39.539063 0 75.910156 15.832031 102.414063 44.578125 26.191406 28.410156 40.613281 67.222656 40.613281 109.292969 0 43.300781-16.132812 82.9375-50.777344 124.738281-30.992187 37.398437-75.53125 75.355469-127.105468 119.308594-17.625 15.015625-37.597657 32.039062-58.328126 50.167969-5.472656 4.789062-12.503906 7.429687-19.789062 7.429687zm-112.96875-425.523437c-31.066406 0-59.605469 12.398437-80.367188 34.914062-21.070312 22.855469-32.675781 54.449219-32.675781 88.964844 0 36.417968 13.535157 68.988281 43.882813 105.605468 29.332031 35.394532 72.960937 72.574219 123.476562 115.625l.09375.078126c17.660156 15.050781 37.679688 32.113281 58.515625 50.332031 20.960938-18.253907 41.011719-35.34375 58.707031-50.417969 50.511719-43.050781 94.136719-80.222656 123.46875-115.617188 30.34375-36.617187 43.878907-69.1875 43.878907-105.605468 0-34.515625-11.605469-66.109375-32.675781-88.964844-20.757813-22.515625-49.300782-34.914062-80.363282-34.914062-22.757812 0-43.652344 7.234374-62.101562 21.5-16.441406 12.71875-27.894532 28.796874-34.609375 40.046874-3.453125 5.785157-9.53125 9.238282-16.261719 9.238282s-12.808594-3.453125-16.261719-9.238282c-6.710937-11.25-18.164062-27.328124-34.609375-40.046874-18.449218-14.265626-39.34375-21.5-62.097656-21.5zm0 0"/></svg>
+                                        </a>
+                                        <a href="#">
+                                            <svg class="w-4 fill-current text-gray-400 hover:text-blue-500" viewBox="0 0 512 512"  xmlns="http://www.w3.org/2000/svg"><g id="Solid"><path d="m182.461 155.48 49.539-49.539v262.059a24 24 0 0 0 48 0v-262.059l49.539 49.539a24 24 0 1 0 33.941-33.941l-90.509-90.51a24 24 0 0 0 -33.942 0l-90.509 90.51a24 24 0 1 0 33.941 33.941z"/><path d="m464 232a24 24 0 0 0 -24 24v184h-368v-184a24 24 0 0 0 -48 0v192a40 40 0 0 0 40 40h384a40 40 0 0 0 40-40v-192a24 24 0 0 0 -24-24z"/></g></svg>
+                                        </a>
+                                        <div class="container flex justify-end">
+                                            <p class="text-gray-400 text-xs">Mar 19, 2021</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="flex flex-col bg-white hover:bg-gray-200 h-auto">
+                                <div class="h-12 p-2 flex flex-row space-x-2">
+                                    <img class="w-8 rounded-full" src="img/emy.jpg"></img>
+                                    <div class="flex flex-col w-4/5">
+                                        <p class="text-sm text-black font-bold hover:text-blue-500"><a href="#">Эрүүл Мэндийн Яам</a></p>
+                                        <p class="text-xs text-gray-400">@EruulMendiinYam</p>
+                                    </div>
+                                    <div class="">
+                                        <svg class="fill-current text-gray-400 hover:text-blue-500 w-5" version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"viewBox="0 0 512 512" style="enable-background:new 0 0 512 512;" xml:space="preserve"><g><g><path d="M512,97.248c-19.04,8.352-39.328,13.888-60.48,16.576c21.76-12.992,38.368-33.408,46.176-58.016c-20.288,12.096-42.688,20.64-66.56,25.408C411.872,60.704,384.416,48,354.464,48c-58.112,0-104.896,47.168-104.896,104.992c0,8.32,0.704,16.32,2.432,23.936c-87.264-4.256-164.48-46.08-216.352-109.792c-9.056,15.712-14.368,33.696-14.368,53.056c0,36.352,18.72,68.576,46.624,87.232c-16.864-0.32-33.408-5.216-47.424-12.928c0,0.32,0,0.736,0,1.152c0,51.008,36.384,93.376,84.096,103.136c-8.544,2.336-17.856,3.456-27.52,3.456c-6.72,0-13.504-0.384-19.872-1.792c13.6,41.568,52.192,72.128,98.08,73.12c-35.712,27.936-81.056,44.768-130.144,44.768c-8.608,0-16.864-0.384-25.12-1.44C46.496,446.88,101.6,464,161.024,464c193.152,0,298.752-160,298.752-298.688c0-4.64-0.C480.224,136.96,497.728,118.496,512,97.248z"/></g></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g></svg>
+                                    </div>
+                                </div>
+                                <div class="pl-8 pt-4 flex flex-col space-y-3 border-b-2 border-gray-100">
+                                    <a href="#">
+                                        <img class="w-full h-auto" src="img/fb/4.jpg" alt="">
+                                    </a>
+                                    <div class="flex flex-row h-10 space-x-6">
+                                        <a href="#">
+                                            <svg class="w-4 fill-current text-gray-400 hover:text-red-500" viewBox="0 -28 512.001 512" xmlns="http://www.w3.org/2000/svg"><path d="m256 455.515625c-7.289062 0-14.316406-2.640625-19.792969-7.4375-20.683593-18.085937-40.625-35.082031-58.21875-50.074219l-.089843-.078125c-51.582032-43.957031-96.125-81.917969-127.117188-119.3125-34.644531-41.804687-50.78125-81.441406-50.78125-124.742187 0-42.070313 14.425781-80.882813 40.617188-109.292969 26.503906-28.746094 62.871093-44.578125 102.414062-44.578125 29.554688 0 56.621094 9.34375 80.445312 27.769531 12.023438 9.300781 22.921876 20.683594 32.523438 33.960938 9.605469-13.277344 20.5-24.660157 32.527344-33.960938 23.824218-18.425781 50.890625-27.769531 80.445312-27.769531 39.539063 0 75.910156 15.832031 102.414063 44.578125 26.191406 28.410156 40.613281 67.222656 40.613281 109.292969 0 43.300781-16.132812 82.9375-50.777344 124.738281-30.992187 37.398437-75.53125 75.355469-127.105468 119.308594-17.625 15.015625-37.597657 32.039062-58.328126 50.167969-5.472656 4.789062-12.503906 7.429687-19.789062 7.429687zm-112.96875-425.523437c-31.066406 0-59.605469 12.398437-80.367188 34.914062-21.070312 22.855469-32.675781 54.449219-32.675781 88.964844 0 36.417968 13.535157 68.988281 43.882813 105.605468 29.332031 35.394532 72.960937 72.574219 123.476562 115.625l.09375.078126c17.660156 15.050781 37.679688 32.113281 58.515625 50.332031 20.960938-18.253907 41.011719-35.34375 58.707031-50.417969 50.511719-43.050781 94.136719-80.222656 123.46875-115.617188 30.34375-36.617187 43.878907-69.1875 43.878907-105.605468 0-34.515625-11.605469-66.109375-32.675781-88.964844-20.757813-22.515625-49.300782-34.914062-80.363282-34.914062-22.757812 0-43.652344 7.234374-62.101562 21.5-16.441406 12.71875-27.894532 28.796874-34.609375 40.046874-3.453125 5.785157-9.53125 9.238282-16.261719 9.238282s-12.808594-3.453125-16.261719-9.238282c-6.710937-11.25-18.164062-27.328124-34.609375-40.046874-18.449218-14.265626-39.34375-21.5-62.097656-21.5zm0 0"/></svg>
+                                        </a>
+                                        <a href="#">
+                                            <svg class="w-4 fill-current text-gray-400 hover:text-blue-500" viewBox="0 0 512 512"  xmlns="http://www.w3.org/2000/svg"><g id="Solid"><path d="m182.461 155.48 49.539-49.539v262.059a24 24 0 0 0 48 0v-262.059l49.539 49.539a24 24 0 1 0 33.941-33.941l-90.509-90.51a24 24 0 0 0 -33.942 0l-90.509 90.51a24 24 0 1 0 33.941 33.941z"/><path d="m464 232a24 24 0 0 0 -24 24v184h-368v-184a24 24 0 0 0 -48 0v192a40 40 0 0 0 40 40h384a40 40 0 0 0 40-40v-192a24 24 0 0 0 -24-24z"/></g></svg>
+                                        </a>
+                                        <div class="container flex justify-end">
+                                            <p class="text-gray-400 text-xs">Mar 19, 2021</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="flex flex-col bg-white hover:bg-gray-200 h-auto">
+                                <div class="h-12 p-2 flex flex-row space-x-2">
+                                    <img class="w-8 rounded-full" src="img/emy.jpg"></img>
+                                    <div class="flex flex-col w-4/5">
+                                        <p class="text-sm text-black font-bold hover:text-blue-500"><a href="#">Эрүүл Мэндийн Яам</a></p>
+                                        <p class="text-xs text-gray-400">@EruulMendiinYam</p>
+                                    </div>
+                                    <div class="">
+                                        <svg class="fill-current text-gray-400 hover:text-blue-500 w-5" version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"viewBox="0 0 512 512" style="enable-background:new 0 0 512 512;" xml:space="preserve"><g><g><path d="M512,97.248c-19.04,8.352-39.328,13.888-60.48,16.576c21.76-12.992,38.368-33.408,46.176-58.016c-20.288,12.096-42.688,20.64-66.56,25.408C411.872,60.704,384.416,48,354.464,48c-58.112,0-104.896,47.168-104.896,104.992c0,8.32,0.704,16.32,2.432,23.936c-87.264-4.256-164.48-46.08-216.352-109.792c-9.056,15.712-14.368,33.696-14.368,53.056c0,36.352,18.72,68.576,46.624,87.232c-16.864-0.32-33.408-5.216-47.424-12.928c0,0.32,0,0.736,0,1.152c0,51.008,36.384,93.376,84.096,103.136c-8.544,2.336-17.856,3.456-27.52,3.456c-6.72,0-13.504-0.384-19.872-1.792c13.6,41.568,52.192,72.128,98.08,73.12c-35.712,27.936-81.056,44.768-130.144,44.768c-8.608,0-16.864-0.384-25.12-1.44C46.496,446.88,101.6,464,161.024,464c193.152,0,298.752-160,298.752-298.688c0-4.64-0.C480.224,136.96,497.728,118.496,512,97.248z"/></g></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g></svg>
+                                    </div>
+                                </div>
+                                <div class="pl-8 pt-4 flex flex-col space-y-3 border-b-2 border-gray-100">
+                                    <a href="#">
+                                        <img class="w-full h-auto" src="img/fb/5.jpg" alt="">
+                                    </a>
+                                    <div class="flex flex-row h-10 space-x-6">
+                                        <a href="#">
+                                            <svg class="w-4 fill-current text-gray-400 hover:text-red-500" viewBox="0 -28 512.001 512" xmlns="http://www.w3.org/2000/svg"><path d="m256 455.515625c-7.289062 0-14.316406-2.640625-19.792969-7.4375-20.683593-18.085937-40.625-35.082031-58.21875-50.074219l-.089843-.078125c-51.582032-43.957031-96.125-81.917969-127.117188-119.3125-34.644531-41.804687-50.78125-81.441406-50.78125-124.742187 0-42.070313 14.425781-80.882813 40.617188-109.292969 26.503906-28.746094 62.871093-44.578125 102.414062-44.578125 29.554688 0 56.621094 9.34375 80.445312 27.769531 12.023438 9.300781 22.921876 20.683594 32.523438 33.960938 9.605469-13.277344 20.5-24.660157 32.527344-33.960938 23.824218-18.425781 50.890625-27.769531 80.445312-27.769531 39.539063 0 75.910156 15.832031 102.414063 44.578125 26.191406 28.410156 40.613281 67.222656 40.613281 109.292969 0 43.300781-16.132812 82.9375-50.777344 124.738281-30.992187 37.398437-75.53125 75.355469-127.105468 119.308594-17.625 15.015625-37.597657 32.039062-58.328126 50.167969-5.472656 4.789062-12.503906 7.429687-19.789062 7.429687zm-112.96875-425.523437c-31.066406 0-59.605469 12.398437-80.367188 34.914062-21.070312 22.855469-32.675781 54.449219-32.675781 88.964844 0 36.417968 13.535157 68.988281 43.882813 105.605468 29.332031 35.394532 72.960937 72.574219 123.476562 115.625l.09375.078126c17.660156 15.050781 37.679688 32.113281 58.515625 50.332031 20.960938-18.253907 41.011719-35.34375 58.707031-50.417969 50.511719-43.050781 94.136719-80.222656 123.46875-115.617188 30.34375-36.617187 43.878907-69.1875 43.878907-105.605468 0-34.515625-11.605469-66.109375-32.675781-88.964844-20.757813-22.515625-49.300782-34.914062-80.363282-34.914062-22.757812 0-43.652344 7.234374-62.101562 21.5-16.441406 12.71875-27.894532 28.796874-34.609375 40.046874-3.453125 5.785157-9.53125 9.238282-16.261719 9.238282s-12.808594-3.453125-16.261719-9.238282c-6.710937-11.25-18.164062-27.328124-34.609375-40.046874-18.449218-14.265626-39.34375-21.5-62.097656-21.5zm0 0"/></svg>
+                                        </a>
+                                        <a href="#">
+                                            <svg class="w-4 fill-current text-gray-400 hover:text-blue-500" viewBox="0 0 512 512"  xmlns="http://www.w3.org/2000/svg"><g id="Solid"><path d="m182.461 155.48 49.539-49.539v262.059a24 24 0 0 0 48 0v-262.059l49.539 49.539a24 24 0 1 0 33.941-33.941l-90.509-90.51a24 24 0 0 0 -33.942 0l-90.509 90.51a24 24 0 1 0 33.941 33.941z"/><path d="m464 232a24 24 0 0 0 -24 24v184h-368v-184a24 24 0 0 0 -48 0v192a40 40 0 0 0 40 40h384a40 40 0 0 0 40-40v-192a24 24 0 0 0 -24-24z"/></g></svg>
+                                        </a>
+                                        <div class="container flex justify-end">
+                                            <p class="text-gray-400 text-xs">Mar 19, 2021</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="flex justify-between p-3 h-15">
+                            <p class="text-blue-600 hover:text-blue-400 text-xs">
+                                <a href="#"> Embed</a></p>
+                            <p class="text-blue-600 hover:text-blue-400 text-xs">
+                                <a href="#"> View on Twitter</a></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <!-- ✓ Footer -->
+    <footer class="bg-second py-5 px-3.75 sm:px-16.25 md:px-6 lg:pr-10.5 xl:pr-21.25 laptop:px-31.25 2xl:px-53.25 border-t-4 border-third">
+        <div class="flex flex-col md:flex-row text-xs text-footer">
+            
+            <div class="flex flex-col sm:flex-row w-full md:w-1/2">
+                <!-- Column 1 -->
+                <div class="flex flex-col w-full sm:w-1/2 md:w-2/5 pr-6">
+                    <h1 class="text-white font-medium uppercase">Холбоосууд</h1>
+                    <div class="bg-third w-10 h-0.75 mt-2 mb-2.5"></div>
+
+                    <ul class="flex flex-col leading-6">
+                        <li class="flex flex-row items-start hover:text-white cursor-pointer">
+                            <i class="fas fa-chevron-right pt-1.75 pr-1 text-icon"></i>
+                            <p>ЭМЯ-ны дэргэдэх ТАЗСЗ</p>
+                        </li>
+                        <li class="flex flex-row items-start hover:text-white cursor-pointer">
+                            <i class="fas fa-chevron-right pt-1.75 pr-1 text-icon"></i>
+                            <p>LICEMED</p>
+                        </li>
+                        <li class="flex flex-row items-start hover:text-white cursor-pointer">
+                            <i class="fas fa-chevron-right pt-1.75 pr-1 text-icon"></i>
+                            <p>Элэг бүтэн монгол</p>
+                        </li>
+                        <li class="flex flex-row items-start hover:text-white cursor-pointer">
+                            <i class="fas fa-chevron-right pt-1.75 pr-1 text-icon"></i>
+                            <p>Эмийн мэдээний сан</p>
+                        </li>
+                        <li class="flex flex-row items-start hover:text-white cursor-pointer">
+                            <i class="fas fa-chevron-right pt-1.75 pr-1 text-icon"></i>
+                            <p>Автомашин</p>
+                        </li>
+                        <li class="flex flex-row items-start hover:text-white cursor-pointer">
+                            <i class="fas fa-chevron-right pt-1.75 pr-1 text-icon"></i>
+                            <p>Тоног төхөөрөмж</p>
+                        </li>
+                        <li class="flex flex-row items-start hover:text-white cursor-pointer">
+                            <i class="fas fa-chevron-right pt-1.75 pr-1 text-icon"></i>
+                            <p>Анхан шат</p>
+                        </li>
+                        <li class="flex flex-row items-start hover:text-white cursor-pointer">
+                            <i class="fas fa-chevron-right pt-1.75 pr-1 text-icon"></i>
+                            <p>Хувийн эмнэлэг</p>
+                        </li>
+                        <li class="flex flex-row items-start hover:text-white cursor-pointer">
+                            <i class="fas fa-chevron-right pt-1.75 pr-1 text-icon"></i>
+                            <p>Тусгай зөвшөөрөлтэй байгууллага</p>
+                        </li>
+                        <li class="flex flex-row items-start hover:text-white cursor-pointer">
+                            <i class="fas fa-chevron-right pt-1.75 pr-1 text-icon"></i>
+                            <p>Статистикийн эмхэтгэл</p>
+                        </li>
+                        <li class="flex flex-row items-start hover:text-white cursor-pointer">
+                            <i class="fas fa-chevron-right pt-1.75 pr-1 text-icon"></i>
+                            <p>Чанарын хуудас</p>
+                        </li>
+                        <li class="flex flex-row items-start hover:text-white cursor-pointer">
+                            <i class="fas fa-chevron-right pt-1.75 pr-1 text-icon"></i>
+                            <p>Эм, эмнэлгийн хэрэгсэл үйлдвэрлэлийн хэлтэс</p>
+                        </li>
+                    </ul>
+                </div>
+
+                <!-- Column 2 -->
+                <div class="flex flex-col w-full sm:w-1/2 md:w-3/5 pr-6 pt-5 sm:py-0">
+                    <h1 class="text-white font-medium uppercase">Нэгдсэн эмнэлгүүд</h1>
+                    <div class="bg-third w-10 h-0.75 mt-2 mb-2.5"></div>
+
+                    <ul class="flex flex-col leading-6">
+                        <li class="flex flex-row items-start hover:text-white cursor-pointer">
+                            <i class="fas fa-chevron-right pt-1.75 pr-1 text-icon"></i>
+                            <p>Архангай аймгийн Нэгдсэн эмнэлэг</p>
+                        </li>
+                        <li class="flex flex-row items-start hover:text-white cursor-pointer">
+                            <i class="fas fa-chevron-right pt-1.75 pr-1 text-icon"></i>
+                            <p>Баян-Өлгий аймгийн Нэгдсэн эмнэлэг</p>
+                        </li>
+                        <li class="flex flex-row items-start hover:text-white cursor-pointer">
+                            <i class="fas fa-chevron-right pt-1.75 pr-1 text-icon"></i>
+                            <p>Хэнтий аймгийн Нэгдсэн эмнэлэг</p>
+                        </li>
+                        <li class="flex flex-row items-start hover:text-white cursor-pointer">
+                            <i class="fas fa-chevron-right pt-1.75 pr-1 text-icon"></i>
+                            <p>Хөвсгөл аймгийн Нэгдсэн эмнэлэг</p>
+                        </li>
+                        <li class="flex flex-row items-start hover:text-white cursor-pointer">
+                            <i class="fas fa-chevron-right pt-1.75 pr-1 text-icon"></i>
+                            <p>Увс аймгийн Нэгдсэн эмнэлэг</p>
+                        </li>
+                        <li class="flex flex-row items-start hover:text-white cursor-pointer">
+                            <i class="fas fa-chevron-right pt-1.75 pr-1 text-icon"></i>
+                            <p>Төв аймгийн Нэгдсэн эмнэлэг</p>
+                        </li>
+                        <li class="flex flex-row items-start hover:text-white cursor-pointer">
+                            <i class="fas fa-chevron-right pt-1.75 pr-1 text-icon"></i>
+                            <p>Сэлэнгэ аймгийн Нэгдсэн эмнэлэг</p>
+                        </li>
+                        <li class="flex flex-row items-start hover:text-white cursor-pointer">
+                            <i class="fas fa-chevron-right pt-1.75 pr-1 text-icon"></i>
+                            <p>Завхан аймгийн Нэгдсэн эмнэлэг</p>
+                        </li>
+                        <li class="flex flex-row items-start hover:text-white cursor-pointer">
+                            <i class="fas fa-chevron-right pt-1.75 pr-1 text-icon"></i>
+                            <p>Дорноговь аймгийн Нэгдсэн эмнэлэг</p>
+                        </li>
+                        <li class="flex flex-row items-start hover:text-white cursor-pointer">
+                            <i class="fas fa-chevron-right pt-1.75 pr-1 text-icon"></i>
+                            <p>Дархан-Уул аймгийн Нэгдсэн эмнэлэг</p>
+                        </li>
+                        <li class="flex flex-row items-start hover:text-white cursor-pointer">
+                            <i class="fas fa-chevron-right pt-1.75 pr-1 text-icon"></i>
+                            <p>Говьсүмбэр аймгийн Нэгдсэн эмнэлэг</p>
+                        </li>
+                        <li class="flex flex-row items-start hover:text-white cursor-pointer">
+                            <i class="fas fa-chevron-right pt-1.75 pr-1 text-icon"></i>
+                            <p>Булган аймгийн Нэгдсэн эмнэлэг</p>
+                        </li>
+                        <li class="flex flex-row items-start hover:text-white cursor-pointer">
+                            <i class="fas fa-chevron-right pt-1.75 pr-1 text-icon"></i>
+                            <p>Баянхонгор аймгийн Нэгдсэн эмнэлэг</p>
+                        </li>
+                        <li class="flex flex-row items-start hover:text-white cursor-pointer">
+                            <i class="fas fa-chevron-right pt-1.75 pr-1 text-icon"></i>
+                            <p>Сүхбаатар аймгийн Нэгдсэн эмнэлэг</p>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="flex flex-col sm:flex-row w-full md:w-1/2 sm:pt-5 md:py-0">
+                <!-- Column 3 -->
+                <div class="flex flex-col w-full sm:w-1/2 pr-6 pt-5 sm:py-0">
+                    <h1 class="text-white font-medium uppercase">Газрууд</h1>
+                    <div class="bg-third w-10 h-0.75 mt-2 mb-2.5"></div>
+
+                    <ul class="flex flex-col leading-6">
+                        <li class="flex flex-row items-start hover:text-white cursor-pointer">
+                            <i class="fas fa-chevron-right pt-1.75 pr-1 text-icon"></i>
+                            <p>Баян-Өлгий аймаг</p>
+                        </li>
+                        <li class="flex flex-row items-start hover:text-white cursor-pointer">
+                            <i class="fas fa-chevron-right pt-1.75 pr-1 text-icon"></i>
+                            <p>Увс аймаг</p>
+                        </li>
+                        <li class="flex flex-row items-start hover:text-white cursor-pointer">
+                            <i class="fas fa-chevron-right pt-1.75 pr-1 text-icon"></i>
+                            <p>Улаанбаатар хот</p>
+                        </li>
+                        <li class="flex flex-row items-start hover:text-white cursor-pointer">
+                            <i class="fas fa-chevron-right pt-1.75 pr-1 text-icon"></i>
+                            <p>Сүхбаатар аймаг</p>
+                        </li>
+                        <li class="flex flex-row items-start hover:text-white cursor-pointer">
+                            <i class="fas fa-chevron-right pt-1.75 pr-1 text-icon"></i>
+                            <p>Архангай аймаг</p>
+                        </li>
+                        <li class="flex flex-row items-start hover:text-white cursor-pointer">
+                            <i class="fas fa-chevron-right pt-1.75 pr-1 text-icon"></i>
+                            <p>Баянхонгор аймаг</p>
+                        </li>
+                        <li class="flex flex-row items-start hover:text-white cursor-pointer">
+                            <i class="fas fa-chevron-right pt-1.75 pr-1 text-icon"></i>
+                            <p>Булган аймаг</p>
+                        </li>
+                        <li class="flex flex-row items-start hover:text-white cursor-pointer">
+                            <i class="fas fa-chevron-right pt-1.75 pr-1 text-icon"></i>
+                            <p>Говь-Алтай аймаг</p>
+                        </li>
+                        <li class="flex flex-row items-start hover:text-white cursor-pointer">
+                            <i class="fas fa-chevron-right pt-1.75 pr-1 text-icon"></i>
+                            <p>Говьсүмбэр аймаг</p>
+                        </li>
+                        <li class="flex flex-row items-start hover:text-white cursor-pointer">
+                            <i class="fas fa-chevron-right pt-1.75 pr-1 text-icon"></i>
+                            <p>Дархан-Уул аймаг</p>
+                        </li>
+                        <li class="flex flex-row items-start hover:text-white cursor-pointer">
+                            <i class="fas fa-chevron-right pt-1.75 pr-1 text-icon"></i>
+                            <p>Дорноговь аймаг</p>
+                        </li>
+                        <li class="flex flex-row items-start hover:text-white cursor-pointer">
+                            <i class="fas fa-chevron-right pt-1.75 pr-1 text-icon"></i>
+                            <p>Дорнод аймаг</p>
+                        </li>
+                        <li class="flex flex-row items-start hover:text-white cursor-pointer">
+                            <i class="fas fa-chevron-right pt-1.75 pr-1 text-icon"></i>
+                            <p>Завхан аймаг</p>
+                        </li>
+                        <li class="flex flex-row items-start hover:text-white cursor-pointer">
+                            <i class="fas fa-chevron-right pt-1.75 pr-1 text-icon"></i>
+                            <p>Орхон аймаг</p>
+                        </li>
+                        <li class="flex flex-row items-start hover:text-white cursor-pointer">
+                            <i class="fas fa-chevron-right pt-1.75 pr-1 text-icon"></i>
+                            <p>Өвөрхангай аймаг</p>
+                        </li>
+                        <li class="flex flex-row items-start hover:text-white cursor-pointer">
+                            <i class="fas fa-chevron-right pt-1.75 pr-1 text-icon"></i>
+                            <p>Өмнөговь аймаг</p>
+                        </li>
+                        <li class="flex flex-row items-start hover:text-white cursor-pointer">
+                            <i class="fas fa-chevron-right pt-1.75 pr-1 text-icon"></i>
+                            <p>Сэлэнгэ аймаг</p>
+                        </li>
+                        <li class="flex flex-row items-start hover:text-white cursor-pointer">
+                            <i class="fas fa-chevron-right pt-1.75 pr-1 text-icon"></i>
+                            <p>Төв аймаг</p>
+                        </li>
+                        <li class="flex flex-row items-start hover:text-white cursor-pointer">
+                            <i class="fas fa-chevron-right pt-1.75 pr-1 text-icon"></i>
+                            <p>Ховд аймаг</p>
+                        </li>
+                        <li class="flex flex-row items-start hover:text-white cursor-pointer">
+                            <i class="fas fa-chevron-right pt-1.75 pr-1 text-icon"></i>
+                            <p>Хөвсгөл аймаг</p>
+                        </li>
+                        <li class="flex flex-row items-start hover:text-white cursor-pointer">
+                            <i class="fas fa-chevron-right pt-1.75 pr-1 text-icon"></i>
+                            <p>Хэнтий аймаг</p>
+                        </li>
+                        <li class="flex flex-row items-start hover:text-white cursor-pointer">
+                            <i class="fas fa-chevron-right pt-1.75 pr-1 text-icon"></i>
+                            <p>Дундговь аймаг</p>
+                        </li>
+                    </ul>
+                </div>
+
+                <!-- Column 4 -->
+                <div class="flex flex-col w-full sm:w-1/2 pt-5 sm:py-0">
+                    <!-- First -->
+                    <h1 class="text-white font-medium uppercase">Холбоо барих</h1>
+                    <div class="bg-third w-10 h-0.75 mt-2 mb-2.5"></div>
+
+                    <ul class="flex flex-col mb-5">
+                        <p class="pt-1 pb-0.25">Засгийн газрын VIII байр, Олимпийн гудамж-2</p>
+                        <p class="py-0.25">Сүхбаатар дүүрэг 14210, Улаанбаатар хот</p>
+                        <p class="pt-0.25">Монгол Улс</p>
+                        <li class="flex flex-row items-center cursor-pointer">
+                            <i class="fa fa-phone-square pr-1"></i>
+                            <p>11-323002</p>
+                        </li>
+                        <p class="font-bold mt-3">Мэдээлэл хүлээн авх</p>
+                        <p>info@moh.gov.mn</p>
+                    </ul>
+
+                    <!-- Second -->
+                    <h1 class="text-white font-medium uppercase">Бүсийн оношлогоо, эмчилгээний төвүүд</h1>
+                    <div class="bg-third w-10 h-0.75 mt-2 mb-2.5"></div>
+
+                    <ul class="flex flex-col leading-6 mb-5">
+                        <li class="flex flex-row items-start hover:text-white cursor-pointer">
+                            <i class="fas fa-chevron-right pt-1.75 pr-1 text-icon"></i>
+                            <p>Дорнод аймгийн Бүсийн оношлогоо, эмчилгээний төв</p>
+                        </li>
+                        <li class="flex flex-row items-start hover:text-white cursor-pointer">
+                            <i class="fas fa-chevron-right pt-1.75 pr-1 text-icon"></i>
+                            <p>Орхон аймгийн Бүсийн оношлогоо, эмчилгээний төв</p>
+                        </li>
+                        <li class="flex flex-row items-start hover:text-white cursor-pointer">
+                            <i class="fas fa-chevron-right pt-1.75 pr-1 text-icon"></i>
+                            <p>Элэг бүтэн монгол</p>
+                        </li>
+                        <li class="flex flex-row items-start hover:text-white cursor-pointer">
+                            <i class="fas fa-chevron-right pt-1.75 pr-1 text-icon"></i>
+                            <p>Өвөрхангай аймгийн Бүсийн оношлогоо, эмчилгээний төв</p>
+                        </li>
+                        <li class="flex flex-row items-start hover:text-white cursor-pointer">
+                            <i class="fas fa-chevron-right pt-1.75 pr-1 text-icon"></i>
+                            <p>Ховд аймгийн Бүсийн оношлогоо, эмчилгээний төв</p>
+                        </li>
+                        <li class="flex flex-row items-start hover:text-white cursor-pointer">
+                            <i class="fas fa-chevron-right pt-1.75 pr-1 text-icon"></i>
+                            <p>Өмнөговь аймгийн Бүсийн оношлогоо, эмчилгээний төв</p>
+                        </li>
+                    </ul>
+
+                    <!-- Third -->
+                    <h1 class="text-white font-medium uppercase">Сошиал Медиа</h1>
+                    <div class="bg-third w-10 h-0.75 mt-2 mb-2.5"></div>
+
+                    <div class="flex flex-row">
+                        <a class="hover:bg-indigo-500 mr-0.75 text-xs w-8 h-8 flex justify-center items-center rounded-full border border-footer" href="#">
+                            <i class="fab fa-facebook-f"></i>
+                        </a>
+                        <a class="hover:bg-lightBlue-500 mx-0.75 text-xs w-8 h-8 flex justify-center items-center rounded-full border border-footer" href="#">
+                            <i class="fab fa-twitter"></i>
+                        </a>
+                        <a class="hover:bg-red-600 mx-0.75 text-xs w-8 h-8 flex justify-center items-center rounded-full border border-footer" href="#">
+                            <i class="fab fa-youtube"></i>
+                        </a>
+                        <a class="hover:bg-orange-500 mx-0.75 text-xs w-8 h-8 flex justify-center items-center rounded-full border border-footer" href="#">
+                            <i class="fa fa-rss"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </footer>
+
+    <!-- ✓ Bottom -->    
+    <section class="bg-second py-5 px-3.75 sm:px-16.25 md:px-6 lg:pr-10.5 xl:pr-21.25 laptop:px-31.25 2xl:px-53.25">
+        <div class="flex flex-col md:flex-row text-sm">
+            <div class="leading-6 pb-3 w-full text-gray-400 text-opacity-90 md:w-4/7">© 2021. ЭРҮҮЛ МЭНДИЙН ЯАМ - Зохиогчийн бүх эрх хуулиар хамгаалагдсан болно.</div>
+            <div class="md:leading-6 text-gray-300 text-opacity-30 flex justify-end w-full md:w-3/7">Веб сайтыг Грийн софт ХХК</div>
+        </div>
+    </section>
+
+    <!-- ✓ JS -->
+    <script>
+        document.getElementById("nav-toggle").onclick = function(){
+        document.getElementById("nav-content").classList.toggle("hidden");
+        };
+        var button_next = document.getElementById("next-btn");
+        button_next.onclick = function(){
+            var container = document.getElementById("container");
+            sideScroll(container, "right", 25, 300, 50);
+        };
+        var button_prev = document.getElementById("prev-btn");
+        button_prev.onclick = function(){
+            var container = document.getElementById("container");
+            sideScroll(container, "left", 25, 300, 50);
+        };
+
+        function sideScroll(element, direction, speed, distance, step){
+            scrollAmount=0;
+            var slideTimer = setInterval(function(){
+                if(direction == "left"){
+                    element.scrollLeft -= step;
+                }else{
+                    element.scrollLeft += step;
+                }
+                scrollAmount += step;
+                if(scrollAmount >= distance){
+                    window.clearInterval(slideTimer);
+                }
+            }, speed);
+        }
+    </script>
+    
+</body>
+</html>
